@@ -1,0 +1,4 @@
+# 指定根据表中的那些字段建立商品
+{{ object.name }}   # 根据商品的名称及建立索引
+{{ object.desc }}   # 点的是属性
+{{ object.goods.detail }} # 根据商品的详情商城索引
